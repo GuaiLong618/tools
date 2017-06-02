@@ -12,12 +12,12 @@ import sys
 print ("create dir tree!")
 
 # 将当前目录改为"工程目录"
-root_dir = r"E:\Git@OSC\HAC-NT-D31A"
+root_dir = r"G:\Git@OSC\HAC-NT-D26A"
 os.chdir(root_dir)
 
 # 创建目录树
 os.makedirs(r"source\apps\inc")
-os.makedirs(r"source\apps\user")
+os.makedirs(r"source\apps\src")
 
 os.makedirs(r"source\arch\cortex_m3")
 
@@ -35,10 +35,13 @@ os.makedirs(r"source\drivers\clock")
 os.makedirs(r"source\drivers\flash")
 os.makedirs(r"source\drivers\gpio")
 
+os.makedirs(r"source\ext\hal\cmsis")
+os.makedirs(r"source\ext\hal\efm32")
+os.makedirs(r"source\ext\lib")
+
 os.makedirs(r"source\misc")
 os.makedirs(r"source\subsys")
 os.makedirs(r"source\shield")
 os.makedirs(r"source\tests")
-
 
 
